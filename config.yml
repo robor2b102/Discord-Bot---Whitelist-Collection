@@ -1,0 +1,39 @@
+Token: ODE5NjMzMTEzODQzMzY3OTk3.YEpc0g.d7Hm0_GdaXU8fmM7CsrXICuwwIc
+
+possible_mint_amounts:
+  - 1
+  - 2
+  - 3
+
+confirm_text: "/submit"
+deny_text: "/redowhitelist"
+
+messages:
+  wallet:
+    description: "Welcome to the Piracy Punks Whitelist Bot\nPlease add your ERC-720 (ETH) Wallet address below, that you will use for minting"
+    color: 0x0000ff
+  invalid_wallet:
+    description: "Invalid wallet format!"
+    color: 0xff0000
+  email:
+    description: "Please add your email address below so we can alert you to any to last-minutes or airdrops"
+    color: 0x0000ff
+  invalid_email:
+    description: "Invalid email format!"
+    color: 0xff0000
+  mint_amount:
+    description: "How many Piracy Punks will you mint during the Whitelist window: 1, 2 or 3?"
+    color: 0x0000ff
+  invalid_mint_amount:
+    description: "Invalid mint amount!"
+    color: 0xff0000
+  check_data:
+    description: "Thank you. Please check the details below are correct.\n**Discord ID:** `{user.id}`\n**ERC-720 (ETH) Wallet Address:** `{wallet}`\n**Email Address:** `{email}`\n**Number of Piracy Punks to be minted at Whitelist:** `{mint_amount}`"
+    color: 0x0000ff
+  confirm_or_deny:
+    description: "If these details are not correct, please type /redowhitelist to start again or /submit to complete this process"
+    color: 0x0000ff
+  data_submitted:
+    description: "Your data has been submitted!"
+    color: 0x00ff00
+  data: "Here is all of the data!"
